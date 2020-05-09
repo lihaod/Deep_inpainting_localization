@@ -21,6 +21,10 @@ Prepare the testing data in a similar way and run the code as follows.
 python3 hp_fcn.py --data_dir <path_to_the_testing_dataset> --logdir <path_to_the directory_where_the_trained_model_is_saved> --mode test
 ```
 
+### Pretrained checkpoint 
+The pretrained checkpoint of High-pass FCN is available at:
+https://drive.google.com/drive/folders/1W1f_piFIiK6JJLIXimr1vtRs8MVYLwjZ?usp=sharing
+
 ## Note
 This repo also includes an implementation of MFCN ([mfcn.py](mfcn.py)):
 
