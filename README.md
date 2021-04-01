@@ -25,6 +25,11 @@ python3 hp_fcn.py --data_dir <path_to_the_testing_dataset> --logdir <path_to_the
 The pretrained checkpoint of High-pass FCN is available at:
 https://drive.google.com/drive/folders/1W1f_piFIiK6JJLIXimr1vtRs8MVYLwjZ?usp=sharing
 
+### Dataset
+The training and testing images inpainted with the method "Globally and locally consistent image completion" (Iizuka et al., TOG 2017) are available at:
+https://pan.baidu.com/s/1Df77EOoBkhukLNAz3YKT4w (gi60)
+
+
 ## Note
 This repo also includes an implementation of MFCN ([mfcn.py](mfcn.py)):
 
