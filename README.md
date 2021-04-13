@@ -12,13 +12,13 @@ This is the implementation of the paper [Localization of Deep Inpainting Using H
 ### Train
 First, prepare the training data so that the images are stored in "xxx/jpg*/xxx/" and the corresponding groundtruth masks are stored in "xxx/msk*/xxx/". Then, run the following command.
 ```
-python3 hp_fcn.py --data_dir <path_to_the_training_dataset> --logdir <path_to_the directory_for_saving_model_and_log> --mode train
+python3 hp_fcn.py --data_dir <path_to_the_training_dataset> --logdir <path_to_the_log_directory_for_saving_model_and_log> --mode train
 ```
 
 ### Test
 Prepare the testing data in a similar way and run the code as follows.
 ```
-python3 hp_fcn.py --data_dir <path_to_the_testing_dataset> --logdir <path_to_the directory_where_the_trained_model_is_saved> --mode test
+python3 hp_fcn.py --data_dir <path_to_the_testing_dataset> --logdir <path_to_the_log_directory> --restore <path_to_the_trained_model> --mode test
 ```
 
 ### Pretrained checkpoint 
